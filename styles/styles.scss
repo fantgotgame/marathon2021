@@ -9,12 +9,30 @@ body {
 }
 
 .mt {
+  &-8 {
+    margin-top: 8px;
+  }
+
   &-20 {
     margin-top: 20px;
   }
 
   &-24 {
     margin-top: 24px;
+  }
+
+  &-36 {
+    margin-top: 36px;
+  }
+
+  &-40 {
+    margin-top: 40px;
+  }
+}
+
+.ml {
+  &-20 {
+    margin-left: 20px;
   }
 }
 
@@ -45,6 +63,14 @@ h2 {
 
 .white-text {
   color: #FFFFFF!important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.weight-500 {
+  font-weight: 500!important;
 }
 
 .button {
@@ -284,6 +310,7 @@ h2 {
     &:hover {
       &:after {
         background-color: rgba(174, 124, 120, 0.8);
+        transition: 0.5s;
       }
     }
 
@@ -333,7 +360,46 @@ h2 {
 }
 
 .steps {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__step {
+    width: 285px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.news {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+
+  &__socials {
+    display: flex;
+
+    & svg:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &__notice {
+    padding-top: 70px;
+    flex: 0 0 auto;
+    width: 387px;
+  }
+
+  &__images {
+    display: flex;
+    flex: 0 0 auto;
+    width: 58%;
+  }
+
+  &__leftside {
+    display: flex;
+    flex-direction: column;
+  }
 }

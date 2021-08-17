@@ -8,11 +8,24 @@ body {
   margin: 0 auto;
 }
 
+.mt-8 {
+  margin-top: 8px;
+}
 .mt-20 {
   margin-top: 20px;
 }
 .mt-24 {
   margin-top: 24px;
+}
+.mt-36 {
+  margin-top: 36px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+
+.ml-20 {
+  margin-left: 20px;
 }
 
 section {
@@ -40,6 +53,14 @@ h2 {
 
 .white-text {
   color: #FFFFFF !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.weight-500 {
+  font-weight: 500 !important;
 }
 
 .button {
@@ -227,6 +248,7 @@ h2 {
 }
 .shopping-list__card:hover:after {
   background-color: rgba(174, 124, 120, 0.8);
+  transition: 0.5s;
 }
 .shopping-list__card:after {
   position: absolute;
@@ -268,10 +290,40 @@ h2 {
   width: 50%;
 }
 
-.steps {
+.steps__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.steps__step {
+  width: 285px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.news {
+  display: flex;
+  justify-content: space-between;
+}
+.news__socials {
+  display: flex;
+}
+.news__socials svg:not(:last-child) {
+  margin-right: 20px;
+}
+.news__notice {
+  padding-top: 70px;
+  flex: 0 0 auto;
+  width: 387px;
+}
+.news__images {
+  display: flex;
+  flex: 0 0 auto;
+  width: 58%;
+}
+.news__leftside {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=styles.css.map */
