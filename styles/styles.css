@@ -230,6 +230,7 @@ h2 {
 }
 .promo-flowers__arrows {
   display: flex;
+  position: relative;
 }
 .promo-flowers__arrows svg {
   cursor: pointer;

@@ -288,6 +288,7 @@ h2 {
 
   &__arrows {
     display: flex;
+    position: relative;
 
     & svg {
       cursor: pointer;

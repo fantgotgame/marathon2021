@@ -1,0 +1,15 @@
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  position: static;
+  height: auto;
+}
+
+* {
+  --swiper-navigation-size: 0;
+}
+
+/*# sourceMappingURL=custom-swipper.css.map */
